@@ -169,9 +169,13 @@ contract ERC404 is Ownable {
 
   /// @notice Internal function for fractional transfers
   function _transfer(address from, address to, uint256 amount) internal returns (bool) {
+    //addition of beforeTokenTransfer
+    _beforeTokenTransfer(from, to, amount);
+    
     uint256 unit = _getUnit();
     uint256 balanceBeforeSender = balanceOf[from];
     uint256 balanceBeforeReceiver = balanceOf[to];
+
 
     balanceOf[from] -= amount;
     unchecked {
@@ -249,9 +253,16 @@ contract ERC404 is Ownable {
     delete getApproved[id];
     emit SharedStructs.Transfer(from, address(0), id);
   }
+
+  function _beforeTokenTransfer(
+    address from,
+    address to,
+    uint256 amount
+  ) internal virtual {}
 /*
   function getTokenIdPool() public view returns (uint256[] memory) {
     return tokenIdPool;
   }
 */
 }
+

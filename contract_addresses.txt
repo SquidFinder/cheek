@@ -1,0 +1,10 @@
+Testnet Addresses Fuji:
+Fuji Airdropper - 0x812c8a47c3489B64896978Ac6B5D807d47410f4f
+Cheeky Basturds - 0x2bcFB3c4dca663C07E3e8Ae54602F07b892e09E5
+Cheeky Basturds WL - 0x349A09c4EfC4db0402C6921fD9b62a31AB258Db6
+
+Testnet Addresses Sepolia:
+Fuji Airdropper - 0xDeC2bEe3cffC8cCFD397f2086482062f102a69d3
+Cheeky Basturds - 0x1868d3c76a049384a3556CD7970eA418370Ee91e
+Cheeky Basturds WL - 0x93bD9b4bcC75cdc6E1c5CDe886Cd5F073DDA530F
+
