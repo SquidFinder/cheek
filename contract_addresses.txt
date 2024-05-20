@@ -8,3 +8,8 @@ Fuji Airdropper - 0xDeC2bEe3cffC8cCFD397f2086482062f102a69d3
 Cheeky Basturds - 0x1868d3c76a049384a3556CD7970eA418370Ee91e
 Cheeky Basturds WL - 0x93bD9b4bcC75cdc6E1c5CDe886Cd5F073DDA530F
 
+Base Addresses :
+Cheeky Basturds - 
+UNIv3Factory (set WL) - 0x33128a8fC17869897dcE68Ed026d694621f6FDfD
+UNIv3NonFun (set WL ) - 0x03a520b32C04BF3bEEf7BEb72E919cf822Ed34f1
+
